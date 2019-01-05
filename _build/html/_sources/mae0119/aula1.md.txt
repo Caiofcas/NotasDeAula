@@ -1,0 +1,19 @@
+# Básicos
+
+​	Essa seção contém alguns conteúdos básicos necessários para compreender o curso.
+
+## <u>Teoria Dos Conjuntos</u>
+
+​	Um conjunto é uma coleção de elementos. Alguns exemplos:
+
+1. Conjunto dos Naturais $N = \{0,1,2,3,....\}$
+2. Conjunto dos Inteiros $Z = \{...,-2,-1,0,1,2,...\}$
+3. Conjunto dos Racionais $Q = \{\dfrac{a}{b} | a,b\in Z, b\neq0\}$
+4. Possíveis Resultados do lançamento de um dado $\{1,2,3,4,5,6\}$
+5. Possíveis Resultados do lançamento de uma moeda $\{\text{'cara'},\text{'coroa'}\}$ ou $\{0,1\}$
+
+### <u>Notação</u>
+
+- $a\in A$  : o elemento $a$ pertence ao conjunto $A$.
+- $a\notin A$  : o elemento $a$ não pertence ao conjunto $A$.
+- 
