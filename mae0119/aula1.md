@@ -17,12 +17,61 @@
 - $a\in A$  : o elemento $a$ pertence ao conjunto $A$.
 - $a\notin A$  : o elemento $a$ não pertence ao conjunto $A$.
 - $\emptyset$ é o conjunto vazio, que não possui elementos.
-- $\Omega$ é chamado de **Espaço Amostral**, ou conjunto de todos os resultados possíveis de um dado experimento (ou modelo).
+- $\Omega​$ é chamado de **Espaço Amostral**, ou conjunto de todos os resultados possíveis de um dado experimento (ou modelo).
 - $A\subset B$ : $A$ está contido em $B$, ou seja, todos os elementos de $A$ também pertencem a $B$. ($\forall \omega \in A, \omega \in B$).
 - $A\subseteq B$ : $A$ está contido em $B$, mas $A$ pode ser igual a $B$.
 - $A^C$ : conjunto **complementar** de $A$; conjunto com todos os elementos que não estão em $A$. ($A^C = \{a | a\notin A\}$)
 - $A\cap B$ : conjunto $A$ **intersecção com** $B$; conjunto com todos os elementos que pertencem a $A$ **e** a $B$. ($A\cap B = \{a|a\in A \and a \in B\}$)
 - $A\cup B$ : conjunto $A$ **união com** $B$; conjunto com todos os elementos que pertencem a $A$ **e/ou** a $B$. ($A \cup B = \{a|a\in A\or a\in B\}$).
+- $A\backslash B$ : **Diferença** entre $A$ e $B$; conjunto com todos os elementos que pertencem a $A$ **e não** pertencem a $B$. ($A\backslash B = \{a|a\in A \and a \notin B\}$)
+
+### Propriedades
+
+- $A^C \cup A = \Omega$
+- $A^C \cap A = \O$
+- $\Omega^C = \O$ ; $\O^C = \Omega$
+- *Leis de Demorgan:*
+  - $(A\cup B)^C = A^C \cap B^C$
+  - $(A \cap B)^C = A^C \cup B^C$
+
+## Análise Combinatória
+
+1. **Permutação:** Número de maneiras de se arranjar $n$ elementos distintos.
+   $$
+   P_n = n! = n(n-1)(n-2)...2.1
+   $$
+
+2. 
+
+$$
+P_{n,k_1,k_2...k_m} = \frac{n!}{k_1!k_2! ... k_m!}
+$$
+
+​	Onde $k_i$ é o número de repetições do elemento $i$.
+
+3. **Combinação:** Número de maneiras de se escolher $k$ itens dentre $n$.
+   $$
+   \binom{n}{k} = \frac{n!}{k!(n-k)!}
+   $$
+
+4. 
+
+$$
+\binom{n}{k_1,k_2...k_m} = \frac{n!}{k_1!k_2!...k_m!}
+$$
+
+5. **Arranjo:** Número de maneiras de se organizar $k$ objetos dentre $n$ possíveis distintos.
+   $$
+   (n)_k = \binom{n}{k}k!=\frac{n!}{(n-k)!}
+   $$
+
+6. 
+
+$$
+C_n = \frac{n!}{n} = (n-1)!
+$$
+
+
 
 ## Legenda
 
